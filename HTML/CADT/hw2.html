@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zookeeper Form</title>
+    <link href="ZookeeperForm.css" rel="stylesheet" />
+  </head>
+  <style>
+    body {
+      font-family: "Palatino Linotype", serif;
+      max-width: 800px;
+      padding: 0px 30px;
+    }
+
+    h1 {
+      margin-bottom: 0px;
+    }
+    fieldset {
+      margin-bottom: 15px;
+      padding: 10px;
+    }
+
+    legend {
+      padding: 0px 3px;
+      font-weight: bold;
+      font-variant: small-caps;
+    }
+
+    label {
+      width: 110px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 6px;
+    }
+
+    a {
+      font-weight: bold;
+      font-style: normal;
+      color: #f00;
+    }
+
+    input:focus {
+      background: #eaeaea;
+    }
+
+    input,
+    textarea {
+      width: 249px;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    select {
+      width: 254px;
+    }
+
+    input[type="checkbox"] {
+      width: 10px;
+    }
+
+    input[type="submit"] {
+      width: 150px;
+      padding: 10px;
+    }
+  </style>
+
+  <body>
+    <h1>Zoo Keeper Application Form</h1>
+    <form action="#">
+      <i>Please complete the form. Mandatory fields are marked with a </i
+      ><a>*</a>
+      <fieldset>
+        <legend>Contact Details</legend>
+        <label for="name">Name <a>*</a></label>
+        <input id="name" /><br />
+        <label for="telephone">Telephone</label>
+        <input id="telephone" /><br />
+        <label for="email">Email <a>*</a></label>
+        <input id="email" /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="age">Age<a>*</a></label>
+        <input id="age" /><br />
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option></select
+        ><br />
+        <label for="comments"
+          >When did you first know you wanted to be a zoo-keeper?</label
+        >
+        <textarea id="comments"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Pick Your Favorite Animals</legend>
+        <label for="zebra"> <input id="zebra" type="checkbox" /> Zebra</label>
+        <label for="cat"> <input id="cat" type="checkbox" /> Cat</label>
+        <label for="anaconda">
+          <input id="anaconda" type="checkbox" /> Anaconda</label
+        >
+        <label for="human"> <input id="human" type="checkbox" /> Human</label>
+        <label for="elephant">
+          <input id="elephant" type="checkbox" /> Elephant</label
+        >
+        <label for="wildebeest">
+          <input id="wildebeest" type="checkbox" /> Wildebeest</label
+        >
+        <label for="pigeon"><input id="pigeon" type="checkbox" /> Pigeon</label>
+        <label for="crab"><input id="crab" type="checkbox" /> Crab</label>
+      </fieldset>
+      <input type="submit" value="Submit Application" />
+    </form>
+  </body>
+</html>
