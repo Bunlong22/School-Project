@@ -50,7 +50,8 @@
 // )=>{
 // console.log(`This is my ${user.name} he is ${user.isSingle}`);
 // }
-const hi= document.querySelector("input")!;
-console.log(hi.type);
+// const hi= document.querySelector("input")!;
+// console.log(hi.type);
 // when select element if there are attribute inside, ts will say it may be null cuz it can not check with html file
 //so just use ? in log or ! after select
+// classes:
