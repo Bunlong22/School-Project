@@ -54,4 +54,6 @@
 // console.log(hi.type);
 // when select element if there are attribute inside, ts will say it may be null cuz it can not check with html file
 //so just use ? in log or ! after select
-// classes:
+// object: 
+// new operator: it create new object and return new object, constructor is like regular functions, to use it we need to invoke it with new operator
+// async function 
