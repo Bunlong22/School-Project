@@ -1,0 +1,211 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Roboto Condensed";
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../New folder/perfume.jpg')
+    
+}
+.logo > img{
+width: 9%;
+   position: relative;
+  bottom: -13px; 
+}
+.logo> a{
+   position: relative;
+   top: -15px;
+   font-size: 20px;
+   left: -25px;
+   color: white;
+   text-decoration: none;
+
+
+}
+.search input{
+    position: relative;
+    left: 400px;
+    top: -20px;
+}
+.search input[type=text]{
+    padding: 10px;
+    width: 30%
+}
+.search input[type=submit]{
+    padding: 10px;
+    width: 10%;
+    background-color: darkblue;
+    color: #fff;
+}
+.navbar ul li{
+    display: inline;
+    padding: 25px;
+    position: relative;
+    top: -50px;
+    right: -360px;
+    padding : 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    background-color: blue;
+    padding: 10px
+}
+.language > img{
+    width: 3%;
+    height: 4vh;
+    position: relative;
+    top: -90px;
+    right: -950px;
+}
+.login{
+    position: relative;
+    top: -10px
+}
+.login > a{
+    position: relative;
+    top: -105px;
+    right: -1100px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.login > span{
+    position: relative;
+    top: -112px;
+    right: -100px;
+}
+/* .backgroundimage > img{
+width: 1300px;
+height: 700px
+}
+.backgroundimage > span{
+    position: relative;
+    top: -400px;
+    right: -300px;
+    font-size: 50px;
+
+} */
+.fistext p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: #2b618e;
+    color: white;
+}
+.fistext> button{
+    width: 13%;
+    position: relative;
+    right: -550px;
+    font-size: 15px
+}
+.secondtext > img{
+    width: 1300px;
+    height: 500px
+}
+.secondtext > button{
+    width: 13%;
+    position: relative;
+    right: -550px;
+    font-size: 15px
+}
+ h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bestseller{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    width: 350px;
+}
+.card1 > img{
+    width : 350px;
+}
+.card1 >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card1>button{
+        position: relative;
+        right: -120px;
+        top: -10px;
+        font-size: 15px;
+}
+.card2 {
+    width: 350px;
+}
+.card2  > img{
+    width : 330px;
+}
+.card2  >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card2 >button{
+        position: relative;
+        right: -125px;
+        top: -10px;
+        font-size: 15px;
+}
+.card3{
+    width: 350px;
+}
+.card3 > img{
+    width : 330px;
+}
+.card3 >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card3> button{
+        position: relative;
+        right: -125px;
+        top: -10px;
+        font-size: 15px;
+}
+.footer{
+    margin-top: 20px
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li{
+    padding: 10px;
+}
+#footer{
+    position: relative;
+    right: -190px;
+    top: -175px;
+}
+#copyright{
+    position: relative;
+    right: -290px;
+}
