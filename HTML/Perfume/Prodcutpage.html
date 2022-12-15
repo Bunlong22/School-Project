@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Prodcucts</title>
+</head>
+
+<style>
+    body{
+        font-family: "Roboto Condensed";
+    }
+    .container{
+    width: 100%;
+    height: 100vh;
+    
+}
+.logo > img{
+width: 9%;
+   position: relative;
+  bottom: -13px; 
+}
+.logo> a{
+   position: relative;
+   top: -15px;
+   font-size: 20px;
+   left:-18px;
+   text-decoration: none;
+   color: rgb(8, 8, 8);
+}
+.search input{
+    position: relative;
+    left: 400px;
+    top: -20px;
+}
+.search input[type=text]{
+    padding: 6px;
+    width: 30%
+}
+.search input[type=submit]{
+    padding: 8px;
+    width: 7%;
+    border: 2px solid white;
+    border-radius: 16px;
+    background-color: #2b618e;
+    color: #fff;
+}
+.navbar ul li{
+    display: inline;
+    padding: 25px;
+    position: relative;
+    top: -50px;
+    right: -360px;
+    padding : 30px;
+    font-size: 18px;
+    color: black;
+    font-weight: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    background-color: blue;
+    padding: 10px
+}
+button{
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: #2b618e;
+    color: white;
+}
+.fistext> button{
+    width: 13%;
+    position: relative;
+    right: -550px;
+    font-size: 15px
+}
+.secondtext > img{
+    width: 1300px;
+    height: 500px
+}
+.secondtext > button{
+    width: 13%;
+    position: relative;
+    right: -550px;
+    font-size: 15px
+}
+ h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bestseller{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 350px;
+}
+.card1 > img{
+    width : 350px;
+    height: 330px;
+}
+.card1 >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card1>button{
+        position: relative;
+        right: -120px;
+        top: -10px;
+        font-size: 15px;
+}
+.card2 {
+    width: 350px;
+}
+.card2  > img{
+    width : 350px;
+    margin-top: -20px;
+}
+.card2  >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card2 >button{
+        position: relative;
+        right: -125px;
+        top: -10px;
+        font-size: 15px;
+}
+.card3{
+    width: 350px;
+}
+.card3 > img{
+    width : 350px;
+    margin-top: -20px;
+}
+.card3 >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card3> button{
+        position: relative;
+        right: -125px;
+        top: -10px;
+        font-size: 15px;
+}
+.card3> h1{
+       position: relative;
+       left: -438px;
+}
+.woody{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card7{
+    width: 350px;
+    
+}
+.card7 > img{
+    width : 350px;
+    height: 300px;
+    margin-bottom: 1px;
+    
+    
+}
+.card7 >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card7>button{
+        position: relative;
+        right: -120px;
+        top: -10px;
+        font-size: 15px;
+}
+.card8 {
+    width: 350px;
+    
+}
+.card8  > img{
+    width : 350px;
+    height: 300px;
+    margin-bottom:-1.5px;
+    
+}
+.card8  >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card8 >button{
+        position: relative;
+        right: -125px;
+        top: -10px;
+        font-size: 15px;
+}
+.card9{
+    width: 350px;
+}
+.card9 > img{
+    width : 350px;
+    height: 300px;
+    margin-bottom: -1px;
+}
+.card9 >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card9> button{
+        position: relative;
+        right: -125px;
+        top: -10px;
+        font-size: 15px;
+}
+.card9> h1{
+       position: relative;
+       left: -438px;
+}
+.sweet{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card10{
+    width: 350px;
+    
+}
+.card10 > img{
+    width : 350px;
+    margin-bottom: 6px;
+    
+    
+}
+.card10 >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card10>button{
+        position: relative;
+        right: -120px;
+        top: -10px;
+        font-size: 15px;
+}
+.card11 {
+    width: 350px;
+    
+}
+.card11  > img{
+    width : 350px;
+    /* margin-top: -18px; */
+}
+.card11  >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card11 >button{
+        position: relative;
+        right: -125px;
+        top: -10px;
+        font-size: 15px;
+}
+.card12{
+    width: 350px;
+    height: 300px;
+}
+.card12 > img{
+    width : 350px;
+    margin-bottom: 6px;
+}
+.card12 >p{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card12> button{
+        position: relative;
+        right: -125px;
+        top: -10px;
+        font-size: 15px;
+}
+.card12> h1{
+       position: relative;
+       left: -438px;
+}
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li{
+    padding: 10px;
+}
+#footer{
+    position: relative;
+    right: -190px;
+    top: -175px;
+}
+#copyright{
+    position: relative;
+    right: -290px;
+}
+
+
+</style>
+<body>
+        <div class="logo">
+            <img src="../../New folder/Logo-removebg-preview.png" alt="logo">
+        <a href="../Perfume/index.html">Perfume</a> 
+        </div>
+      
+       
+    <div class="navbar">
+        <ul>
+            <li><a href="../Perfume/index.html">Home</a></li>
+            <li><a href="../Perfume/Prodcutpage.html">Products</a></li>
+            <li><a href="../Perfume/Prodcutpage.html">Scents</a></li>
+            <li><a href="../Perfume/Contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+    </div>
+     <div class="search">
+             <input type="text" placeholder="search" id="search">
+            <input type="submit" id="submit">
+        </div>
+        <h1>Spicy Scents</h1>
+    <div class="bestseller">
+        <div class="card1">
+            <img src="../../New folder/product13.jpg" alt="">
+            <p>Club de nuit URBAN</p>
+            <p>$45</p>
+            <button>Add to cart</button>
+
+        </div>
+        <div class="card2">
+            <img src="../../New folder/product14.jpg" alt="">
+            <p>AZZARO (Night)</p>
+            <p>$35</p>
+            <button>Add to cart</button>
+
+        </div>
+        <div class="card3">
+            <img src="../../New folder/product16.jpg" alt="">
+            <p>AZZARO (Day)</p>
+            <p>$40</p>
+            <button>Add to cart</button>
+            <h1>Woody Scents</h1>
+            </div>
+        </div>
+        
+        <div class="woody">
+            <div class="card7">
+                <img src="../../New folder/product4.jpg" alt="">
+                <p>Tom FORD </p>
+                <p>$50</p>
+                <button>Add to cart</button>
+    
+            </div>
+            <div class="card8">
+                <img src="../../New folder/product5.jpg" alt="">
+                <p>Golden</p>
+                <p>$65</p>
+                <button>Add to cart</button>
+    
+            </div>
+            <div class="card9">
+                <img src="../../New folder/product6.jpg" alt="">
+                <p>Milestone</p>
+                <p>$45</p>
+                <button>Add to cart</button>
+                <h1>Sweet Scents</h1>
+
+    </div>
+    </div>
+    <div class="sweet">
+        <div class="card10">
+            <img src="../../New folder/product7.jpg" alt="">
+            <p>Sillage</p>
+            <p>$70</p>
+            <button>Add to cart</button>
+
+        </div>
+        <div class="card11">
+            <img src="../../New folder/product17.jpg" alt="">
+            <p>De scent</p>
+            <p>$25</p>
+            <button>Add to cart</button>
+
+        </div>
+        <div class="card12">
+            <img src="../../New folder/product10.jpg" alt="">
+            <p>CK</p>
+            <p>$65</p>
+            <button>Add to cart</button>
+            
+
+</div>
+        </div>
+        
+        <div class="footer">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Scents</a></li>
+                <li><a href="">About Us</a></li>
+                
+            </ul>
+            <ul id="footer">
+                <li><a href="">Contact Us:</a></li>
+                <li><a>Perfume Clone</a></li>
+                <li><a>0124545212</a></li>
+                <li><a>@PerfumeClone</a></li>
+                <li id="copyright"><a>Copyright © all rights reserseved</a>
+                </li>
+            </ul>
+            
+        </div>
+</body>
+</html>
